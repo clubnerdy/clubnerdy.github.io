@@ -1,0 +1,15 @@
+:root {
+  /* font-family: ; */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1400px) {
+  .main-frame {
+    width: 100%;
+  }
+}
