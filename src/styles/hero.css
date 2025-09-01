@@ -1,0 +1,65 @@
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: 782px;
+}
+
+.hero-title {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-title h1 {
+  font-family: 'Francisco', serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 96px;
+  position: absolute;
+  white-space: nowrap;
+  color: #F46D88;
+}
+
+.title-we {
+  top: 20px;
+  left: 8.717%;
+  z-index: 3;
+}
+
+.title-getting {
+  top: 97px;
+  left: 55%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.title-married {
+  top: 208px;
+  left: 60%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.hero-sub-title {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-sub-title p {
+  font-weight: 600;
+}
+
+.p1, .p3 {
+  font-size: 12px;
+}
+.p2 {
+  font-size: 16px;
+  margin-top: 8px;
+}

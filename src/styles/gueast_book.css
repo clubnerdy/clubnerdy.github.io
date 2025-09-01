@@ -1,0 +1,152 @@
+.guest-book-container {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #FFFBFB;
+}
+
+.guest-book-header {
+  margin-bottom: 44px;
+}
+
+
+.guest-book-content {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  padding: 0 16px;
+}
+
+/* 메시지 작성 폼 */
+
+.form-title {
+  font-size: 14px;
+  margin-bottom: 12px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.message-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-input,
+.content-input {
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.name-input:focus,
+.content-input:focus {
+  border-color: #F46D88;
+}
+
+.content-input {
+  resize: none;
+  min-height: 100px;
+}
+
+.submit-button {
+  align-self: center;
+  background: #6B6161;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  padding: 8px 22px;
+}
+
+/* 메시지 목록 */
+.messages-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.messages-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.message-item {
+  background: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.message-header {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 14px;
+}
+
+.sender {
+  color: #F46D88;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.sender span {
+    color: #373232;
+  }
+
+.message-content {
+  margin-bottom: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.message-line {
+  margin: 0 0 8px 0;
+  line-height: 1.6;
+  color: #333;
+}
+.message-footer {
+  text-align: right;
+}
+
+.message-date {
+  color: #999;
+  font-size: 12px;
+}
+
+/* 더보기 버튼 */
+.load-more-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.load-more-button {
+  background: none;
+  border: none;
+  color: #666;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 12px 24px;
+  transition: color 0.3s;
+}
+
+.chevron-icon {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  transform: translateY(-2px);
+}

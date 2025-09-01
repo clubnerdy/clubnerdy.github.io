@@ -1,0 +1,157 @@
+
+.schedule-container {
+  width: 100%;
+  text-align: center;
+}
+
+.schedule-heading {
+  margin-bottom: 60px;
+}
+
+.heading-description {
+  font-size: 14px;
+  color: #F46D88;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.schedule-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 달력 섹션 */
+.calendar-section {
+  width: 100%;
+}
+
+.calendar-header {
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.year {
+  font-size: 32px;
+  color: #A49A9A;
+  font-weight: 700;
+  margin-bottom: 8px;
+  font-family: 'Pretendard', sans-serif;
+}
+
+.month-list {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.elevation-1 {
+  text-align: center;
+  color: rgba(225.58, 126.53, 146.34, 0.50);
+  font-size: 28px;
+  font-weight: 500;
+  word-wrap: break-word;
+  filter: blur(2px);
+}
+
+.elevation-2 {
+  text-align: center;
+  color: rgba(225.58, 126.53, 146.34, 0.70);
+  font-size: 28px;
+  font-weight: 500;
+  word-wrap: break-word;
+  filter: blur(2px);
+}
+
+.elevation-3 {
+  text-align: center;
+  color: #FF6583;
+  font-size: 80px;
+  font-weight: 800;
+  word-wrap: break-word;
+}
+
+/* 캘린더 테이블 스타일 */
+.calendar-table {
+  margin-bottom: 30px;
+  padding:0 45px;
+}
+
+.calendar-table table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+.calendar-table th {
+  padding: 12px 8px;
+  font-size: 12px;
+  color: #333;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  width: 14.28%;
+}
+
+.calendar-table th:first-child {
+  color: #FF2D2D;
+}
+
+.calendar-table td {
+  padding: 8px;
+  font-size: 12px;
+  color: #333;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  height: 32px;
+  width: 14.28%;
+}
+
+/* 결혼식 날짜 특별 스타일 */
+.wedding-day {
+  position: relative;
+  text-align: center;
+}
+
+.wedding-heart {
+    width: 32px;
+    height: 32px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+  background-color: #FFE1E7;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.wedding-date {
+  position: relative;
+  color: #FF6583 !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  z-index: 2;
+}
+
+/* 이벤트 상세 정보 */
+.event-details {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.event-time {
+    color: #373232;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    word-wrap: break-word
+}

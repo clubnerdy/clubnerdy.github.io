@@ -1,0 +1,86 @@
+.account-container .heading {
+    gap: 0;
+    margin-bottom: 44px;
+}
+
+.account-container .heading-description {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.account-container .heading-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #A49A9A;
+}
+
+.account-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 16px;
+}
+
+.account-item {
+    background: #fff;
+    padding: 22px 28px;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.item-heading {
+    color: #373232;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.26px;
+    word-wrap: break-word
+}
+
+.item-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-name {
+    color: #373232;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.item-bank {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: nowrap;
+}
+
+.bank-name,
+.bank-number {
+    color: #373232;
+    font-size: 14px;
+    font-family: Pretendard JP Variable;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.26px;
+    white-space: nowrap;
+}
+
+.copy-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-image {
+  width: 14px;
+  height: 15px;
+}
