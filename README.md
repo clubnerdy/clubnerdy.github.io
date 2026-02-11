@@ -1,16 +1,70 @@
-# React + Vite
+# Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+개인 포트폴리오 페이지입니다.  
+HTML, CSS, JavaScript 기반으로 먼저 구현한 뒤, 최종 버전은 **React**로 리팩토링할 예정입니다.
 
-Currently, two official plugins are available:
+<br>
+<br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧩 Tech Stack
 
-## React Compiler
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6+)**
+- **React** (리팩토링 예정)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<br>
+<br>
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 반응형 레이아웃
+- 메인 소개 섹션 (About)
+- 프로젝트/작업물 리스트 섹션
+- 간단한 연락/소셜 링크 섹션
+- 재사용 가능한 기본 컴포넌트 스타일 (버튼, 카드 등)
+
+<br>
+<br>
+
+## 📁 Folder Structure
+
+```bash
+.
+├── index.html
+├── /style
+│   ├── bp.css
+│   ├── common.css
+│   ├── public.css   # 메인 스타일
+│   └── reset.css
+├── /script
+│   └── main.js
+└── /assets
+    └── images
+```
+
+<br>
+<br>
+
+## 🚀 How to Run
+
+### 1. 이 레포지토리를 클론합니다.
+
+```bash
+git clone https://github.com/USERNAME/REPO_NAME.git
+```
+
+### 2. index.html 파일을 브라우저로 열면 바로 확인할 수 있습니다.
+
+(별도 빌드 과정 없이 동작합니다.)
+
+<br>
+<br>
+
+## 📌 React 리팩토링 계획
+
+- 컴포넌트 단위로 섹션 분리
+
+- 프로젝트 데이터/프로필 정보를 JSON 또는 JS 객체로 관리
+
+- 필요 시 라우팅 구조 적용 (예: 프로젝트 상세 페이지 등)
